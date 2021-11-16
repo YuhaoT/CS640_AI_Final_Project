@@ -11,4 +11,4 @@ It would like like somthing similar like the tree below
      |-- 1.png
      |-- 2.png
 ```
-image组和 text组分两个brach text 和 image
+image组和 text组分两个branch text 和 image
