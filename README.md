@@ -4,9 +4,9 @@ All data put under ./data folder with a ./img folder inside
 It would like like somthing similar like the tree below
 ```
 |-- data/
-  |-- user.json
-  |-- tweets.json
-  |-- *.csv
+  |-- User demo profiles.json
+  |-- Twitter_User_Handles_labeled_tweets.json
+  |-- labeled_users.csv
   |-- img/
      |-- 1.png
      |-- 2.png
