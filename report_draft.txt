@@ -1,1 +1,11 @@
 Preprocessing the tweets
+* lower cases
+* remove @users
+* remove #hashtags
+* remove punctuations
+label age: 0(<21) 1(>=21)
+label race: 1 African-American 
+            2 Latino/Hispanic
+            3 Asian
+            4 White
+            5 Multiracial
