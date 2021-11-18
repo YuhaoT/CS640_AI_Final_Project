@@ -9,3 +9,5 @@ label race: 1 African-American
             3 Asian
             4 White
             5 Multiracial
+            
+Drop NaN when train on race
