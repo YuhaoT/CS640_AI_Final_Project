@@ -13,4 +13,5 @@ It would like something similar like the tree below
 ```
 
 如果要commit `.ipynb` 记得先重新跑一遍， 不然不同cell number 会conflict
-Write down your progress or what you did in the report_draft.txt, so that is will be easier for us to write the report at the end.
+
+#Write down your progress or what you did in the report_draft.txt, so that is will be easier for us to write the report at the end.
