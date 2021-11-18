@@ -13,4 +13,5 @@ It would like something similar like the tree below
 ```
 
 如果要commit `.ipynb` 记得先重新跑一遍， 不然不同cell number 会conflict
+
 note: label for age, 1 >= 21, 0 < 21
