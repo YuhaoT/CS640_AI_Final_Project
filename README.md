@@ -1,6 +1,6 @@
 # CS640_AI_Final_Project
 AI Final Project for BU CS640 
-All data put under ./data folder with a ./img folder inside
+All data put under ./data folder with a ./profile pics folder inside
 It would like something similar like the tree below
 ```
 |-- data/
