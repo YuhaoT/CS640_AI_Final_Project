@@ -20,4 +20,5 @@ It would like something similar like the tree below
 
 ### Bill：
 In profilePic_indicate_race.ipynb, cleaned and filtered csv from dataset1, and get tensors of faces.
+
 TODO: build a model to train with race_tensor relationship.
