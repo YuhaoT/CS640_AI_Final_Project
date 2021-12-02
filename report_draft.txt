@@ -9,5 +9,9 @@ label race: 1 African-American
             3 Asian
             4 White
             5 Multiracial
-            
-Drop NaN when train on race
+
+Merged all tweets into one column and remove users whose last 100 tweets are all "None"
+Columns for "./data/preprocessed_tweets_with_race&age.csv" are now 
+['user_id', 'all_tweets', 'is_female', 'year_born', 'race', 'age']
+
+Note: Drop NaN when train on race
