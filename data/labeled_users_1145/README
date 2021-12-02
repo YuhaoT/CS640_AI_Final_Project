@@ -1,0 +1,5 @@
+The labeled users (and their profile information) are in the file: labeled_users.csv
+-- The labeled age is in the column 'human.labeled.age'
+-- The image id is the very first column. You can find the profile picture of the user in the file profile_pics.zip
+
+Tweets of users can be found in tweets.json file, the primary key is the screen_name of the user in labeled_users.csv
