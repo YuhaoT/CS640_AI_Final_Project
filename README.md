@@ -18,7 +18,15 @@ It would like something similar like the tree below
 
 #Removed all unrelated images and restored the images path
 
-### Bill：
-In profilePic_indicate_race.ipynb, cleaned and filtered csv from dataset1, and get tensors of faces.
+## Bill：
+### In `removeAddtionalImage.ipynb`
+  * removed all unrelated images.
 
-TODO: build a model to train with race_tensor relationship.
+### In `getAllFacesInDS1.ipynb`
+  * cleaned and filtered csv from dataset1, got all cropped faces using `face_detector` from `facenet` and saved in `./data/cropped.
+  * save the dataframe in `data.pkl`
+
+### In `Model_for_race.ipynb`
+  * trained a pretrained `vgg2` model from `facenet` on all cropped faces to classificate into 0-other, 1-black, and 2-white 3 classes.
+  * saved the model parameters in `dataset1_pic_race_model.pt`
+  * Got 0.862 valid accuracy.
