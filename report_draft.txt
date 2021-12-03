@@ -14,4 +14,12 @@ Merged all tweets into one column and remove users whose last 100 tweets are all
 Columns for "./data/preprocessed_tweets_with_race&age.csv" are now 
 ['user_id', 'all_tweets', 'is_female', 'year_born', 'race', 'age']
 
+Race Prediction: 
+    - Drop NaN
+    - label formation: 1: Black, 4: White, 0: Others(merge all other label to 0)
+        - change 4 to 2 if needed
+
+
 Note: Drop NaN when train on race
+
+
