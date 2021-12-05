@@ -27,6 +27,8 @@ It would like something similar like the tree below
 
 #Removed all unrelated images and restored the images path
 
+## Presentation Google Slide link: https://docs.google.com/presentation/d/1NyAYcO3dSSaaqkQo6HyI0EygkqZdX5OllcGahSehm7Y/edit?usp=sharing
+
 ## Bill：
 ### In `removeAddtionalImage.ipynb`
   * removed all unrelated images.
