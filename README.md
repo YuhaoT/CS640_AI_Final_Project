@@ -29,6 +29,30 @@ It would like something similar like the tree below
 
 ### Presentation Google Slide link: https://docs.google.com/presentation/d/1NyAYcO3dSSaaqkQo6HyI0EygkqZdX5OllcGahSehm7Y/edit?usp=sharing
 
+## Twitter Prediction:
+### Logistic Regession in `logisticRegression.ipynb`
+use Logistic Regession to get prediction on Race and Age
+- use nltk PorterStemmer to stem all words from tweets. 
+- Tokenized tweets use sklean TfidfVectorizer with max_features = 5000 and remove English 
+- Use 5-fold-cross-validation to get an average score on precision, recall and f1 score
+
+Also tried word2vec vectorizing method with gensim word2vec, but didn't get a better results compared with Logistic regression with Tfidf vectorizer. 
+
+### Bert use (`bert-base-cased`)
+we fine-tune bert on race prediction(`bert_race.ipynb`) and age prediction(`bert_age.ipynb`) separately.
+
+- drop nan from data
+- tokenize tweets used BertTokenizerFast from Huggingface transformers
+- padded all tweets to 25
+- concatenate columns 0 ~ 99 columns to one column then sampling train, val, test set from concatenated data
+- use one-hot representation to generate label matrix for multi-label representation (for race prediction). 
+  - for example [[0, 0, 0, 1], [0, 1, 0, 0], [1, 0, 0, 0]] is a one-hot representation for [3, 1, 0]
+ - Compute class weights for each label in training set
+  - *__Hyperparameters and other tuning__* 
+    - use AdamW optimizer
+    - Corss Entropy Loss
+    - add drop out layer
+
 ## Bill：
 ### In `removeAddtionalImage.ipynb`
   * removed all unrelated images.
