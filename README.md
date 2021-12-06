@@ -56,7 +56,7 @@ we fine-tune bert on race prediction(`bert_race.ipynb`) and age prediction(`bert
 ## Race Prediction on Profile image:
 Created the `race_prediction_image` folder, including all related files. All .ipynb files need to run outside the folder.
 
-### In `removeAddtionalImage.ipynb`
+### In `removeAdditionalImage.ipynb`
   * removed all unrelated images.
 
 ### In `getAllFacesInDS1.ipynb`
