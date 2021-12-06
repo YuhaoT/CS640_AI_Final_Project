@@ -53,8 +53,10 @@ we fine-tune bert on race prediction(`bert_race.ipynb`) and age prediction(`bert
     - Corss Entropy Loss
     - add drop out layer
 
-## Bill：
-### In `removeAddtionalImage.ipynb`
+## Race Prediction on Profile image:
+Created the `race_prediction_image` folder, including all related files. All .ipynb files need to run outside the folder.
+
+### In `removeAdditionalImage.ipynb`
   * removed all unrelated images.
 
 ### In `getAllFacesInDS1.ipynb`
@@ -64,4 +66,9 @@ we fine-tune bert on race prediction(`bert_race.ipynb`) and age prediction(`bert
 ### In `Model_for_race.ipynb`
   * trained a pretrained `vgg2` model from `facenet` on all cropped faces to classificate into 0-other, 1-black, and 2-white 3 classes.
   * saved the model parameters in `dataset1_pic_race_model.pt`
-  * Got 0.862 valid accuracy.
+  * Got BAD result. All predictions are choosing race == white.
+  * reduced the number of white labeled pics to make the dataset balanced.
+  * Got some result.
+
+### In `CreatPredictRaceCSV.ipynb`
+  * Used the model to predict users' race, and saved the result into `userid_race_predrace.csv`.
