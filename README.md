@@ -53,6 +53,9 @@ we fine-tune bert on race prediction(`bert_race.ipynb`) and age prediction(`bert
     - Corss Entropy Loss
     - add drop out layer
 
+### Flair prediction on age "Age_flair.ipynb"
+Based on bert, we put the data into flair. The accuracy is 0.55 which is lower than 0.56(LR)
+
 ## Race Prediction on Profile image:
 Created the `race_prediction_image` folder, including all related files. All .ipynb files need to run outside the folder.
 
