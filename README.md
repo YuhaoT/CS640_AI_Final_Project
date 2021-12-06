@@ -53,7 +53,7 @@ we fine-tune bert on race prediction(`bert_race.ipynb`) and age prediction(`bert
     - Corss Entropy Loss
     - add drop out layer
 
-## Bill：
+## Race Prediction on Profile image:
 Created the `race_prediction_image` folder, including all related files. All .ipynb files need to run outside the folder.
 
 ### In `removeAddtionalImage.ipynb`
