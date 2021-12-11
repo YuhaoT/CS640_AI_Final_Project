@@ -21,12 +21,6 @@ It would like something similar like the tree below
      |-- 2.png
 ```
 
-如果要commit `.ipynb` 记得先重新跑一遍， 不然不同cell number 会conflict
-
-#Write down your progress or what you did in the report_draft.txt, so that is will be easier for us to write the report at the end.
-
-#Removed all unrelated images and restored the images path
-
 ### Presentation Google Slide link: https://docs.google.com/presentation/d/1NyAYcO3dSSaaqkQo6HyI0EygkqZdX5OllcGahSehm7Y/edit?usp=sharing
 
 ## Twitter Prediction:
